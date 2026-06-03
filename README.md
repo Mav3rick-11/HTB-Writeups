@@ -11,16 +11,19 @@
 | Legacy | Windows | Easy | CVE-2008-4250 (MS08-067) | [legacy.md](legacy/legacy.md) |
 | Lame | Linux | Easy | CVE-2004-2687 (distcc) | [lame.md](lame/lame.md) |
 | Jerry | Windows | Easy | Default Tomcat credentials + WAR upload | [jerry.md](jerry/jerry.md) |
+| Cap | Linux | Easy | IDOR + Linux capabilities abuse (cap_setuid) | [cap.md](cap/cap.md) |
 
 ## Skills Demonstrated
 
 - Network enumeration with Nmap (port scanning, service detection, vuln scripts)
 - Metasploit module configuration and exploitation
 - Shell upgrading (dumb shell → full TTY)
-- Linux post-exploitation enumeration (SUID binaries, GTFOBins)
-- Privilege escalation via SUID nmap interactive mode
+- Linux post-exploitation enumeration (SUID binaries, capabilities, GTFOBins)
+- Privilege escalation via SUID nmap interactive mode and Linux capabilities abuse
 - Windows SMB exploitation (MS08-067 / EternalBlue era)
 - Apache Tomcat credential brute-force and malicious WAR file deployment
+- IDOR vulnerability identification and exploitation
+- PCAP analysis and plaintext credential harvesting
 
 ## Tools Used
 
