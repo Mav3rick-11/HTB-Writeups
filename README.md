@@ -12,6 +12,7 @@
 | Lame | Linux | Easy | CVE-2004-2687 (distcc) | [lame.md](lame/lame.md) |
 | Jerry | Windows | Easy | Default Tomcat credentials + WAR upload | [jerry.md](jerry/jerry.md) |
 | Cap | Linux | Easy | IDOR + Linux capabilities abuse (cap_setuid) | [cap.md](cap/cap.md) |
+| Nibbles | Linux | Easy | CVE-2015-6967 Nibbleblog file upload + sudo misconfiguration | [nibbles.md](nibbles/nibbles.md) |
 
 ## Skills Demonstrated
 
