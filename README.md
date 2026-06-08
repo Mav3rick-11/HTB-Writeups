@@ -26,6 +26,14 @@
 - IDOR vulnerability identification and exploitation
 - PCAP analysis and plaintext credential harvesting
 
+## Lab Writeups
+
+| Lab | Vulnerability | CVE | Writeup |
+|-----|--------------|-----|---------|
+| vsftpd Backdoor | Unauthenticated RCE via FTP backdoor | CVE-2011-2523 | [vsftpd_234_backdoor.md](labs/vsftpd_234_backdoor.md) |
+| Apache Path Traversal | Double URL encoding bypass | CVE-2021-42013 | [apache_path_traversal_cve2021_42013.md](labs/apache_path_traversal_cve2021_42013.md) |
+| Password Cracking | Offline hash cracking with John + rockyou | — | [password_cracking_john.md](labs/password_cracking_john.md) |
+
 ## Tools Used
 
 `nmap` · `searchsploit` · `metasploit` · `msfvenom` · `python`
