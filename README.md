@@ -14,6 +14,7 @@
 | Cap | Linux | IDOR + Linux capabilities abuse (cap_setuid) | [cap.md](cap/cap.md) |
 | Nibbles | Linux | CVE-2015-6967 Nibbleblog file upload + sudo misconfiguration | [nibbles.md](nibbles/nibbles.md) |
 | Bashed | Linux | Web shell exposure + sudo lateral move + cron job abuse | [bashed.md](bashed/bashed.md) |
+| Shocker | Linux | CVE-2014-6271 Shellshock via CGI + sudo perl GTFOBins | [shocker.md](shocker/shocker.md) |
 
 ## Skills Demonstrated
 
